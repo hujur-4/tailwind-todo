@@ -1,7 +1,7 @@
-import { locateSource } from "./simple/steps/locateSource.js";
-import { locateDestination } from "./simple/steps/locateDestination.js";
-import { createProject } from "./simple/steps/createProject.js";
-import { announce } from "./simple/steps/announce.js";
+import { locateSource } from "./header/steps/locateSource.js";
+import { locateDestination } from "./header/steps/locateDestination.js";
+import { createProject } from "./header/steps/createProject.js";
+import { announce } from "./header/steps/announce.js";
 
 import resolveFolderName from "../core/resolveFolderName.js";
 

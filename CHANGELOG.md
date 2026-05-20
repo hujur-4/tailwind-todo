@@ -19,3 +19,8 @@ The format is based on Keep a Changelog.
 
 ### Added
 - simple command only
+
+## [1.1.2] - 2026-05-20
+
+### Added
+- index.html with simple header

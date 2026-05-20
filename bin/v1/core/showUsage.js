@@ -22,18 +22,18 @@ export default function showUsage(version) {
     const r = "\x1b[0m";
 
     console.log(`
-${c}🚀 express-todo v${version}${r}
+${c}🚀 tailwind-ui v${version}${r}
 
 ${y}Usage:${r}
-  ${g}npx @keshavsoft/express-todo${r} <command> [options]
+  ${g}npx tailwind-ui${r} <command> [options]
 
 ${y}Commands:${r}
-  ${g}simple${r}              Initialize a new simple express app
+  ${g}header${r}              a simple header
 
 ${y}Examples:${r}
-  ${gray}npx @keshavsoft/express-todo simple${r}
+  ${gray}npx tailwind-ui header${r}
 
 ${y}Tip:${r}
-  ${gray}npm i -g @keshavsoft/express-todo${r}
+  ${gray}npm i -g tailwind-ui${r}
 `);
 }

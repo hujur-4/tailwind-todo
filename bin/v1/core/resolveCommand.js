@@ -1,8 +1,8 @@
-import simple from "../commands/simple.js";
+import header from "../commands/header.js";
 
 // resolveCommand.js
 const map = {
-    simple
+    header
 };
 
 export default function resolveCommand(cmd) {
