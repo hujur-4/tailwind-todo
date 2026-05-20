@@ -24,3 +24,8 @@ The format is based on Keep a Changelog.
 
 ### Added
 - index.html with simple header
+
+## [1.3.1] - 2026-05-20
+
+### Added
+- folder not created
