@@ -27,7 +27,7 @@
     "README.md",
     "LICENSE"
   ],
-  "homepage": "https://cli.keshavsoft.com",
+  "homepage": "https://keshavsoft.github.io/tailwind-todo/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keshavsoft/tailwind-todo.git"
