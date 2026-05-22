@@ -1,14 +1,12 @@
 // src/main.js
 
-import getLatestVersion from "../bin/core/getLatestVersion.js";
+(async () => {
+    window.KSHeaderVersion = "v5";
+    window.KSHeaderTemplateVersion = "v1";
 
-const v = getLatestVersion();
+    const module = await import(
+        `../bin/${window.KSHeaderVersion}/commands/header/template/${window.KSHeaderTemplateVersion}/initHeader.js`
+    );
 
-const { default: templateLatestVersion } =
-    await import(`../bin/${v}/commands/header/steps/getLatestVersion.js`);
-
-const module = await import(
-    `../bin/${v}/commands/header/template/${templateLatestVersion}/initHeader.js`
-);
-
-window.KSHeader = module.default;
+    window.KSHeader = module.default;
+})();
